@@ -1,0 +1,8 @@
+//Nodemon not working and showing cannot be loaded because running scripts is disabled on this system
+// go to package.json and update scripts (Name of the js file is index.js)
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev":"nodemon index.js"
+  }
+// in last write npm run dev to activate nodemon
